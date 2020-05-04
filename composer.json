@@ -1,0 +1,17 @@
+{
+    "name": "mnelson4/html-forms-mailchimp-update",
+    "type": "wordpress-plugin",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ibericode/mailchimp-for-wordpress.git"
+        }
+    ],
+    "require": {
+        "ibericode/html-forms": "^1.3",
+        "ibericode/mailchimp-for-wordpress": "^4.7"
+    },
+    "require-dev": {
+        "szepeviktor/phpstan-wordpress": "^0.6.0"
+    }
+}
