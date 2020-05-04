@@ -37,7 +37,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // Now the user will get a link to the form, fill it out (no need to re-enter their email)
 // and upon successful submission, those tags will be added to their MailChimp contact.
 
-use \HTML_Forms\Submission;
+use HTML_Forms\Submission;
 use HTML_Forms\Form;
 
 define('FIRST_SURVEY_SLUG', 'survey_1');
